@@ -8,10 +8,12 @@ import Login from './pages/Login';
 import Logout from './pages/Logout';
 import ProtectedRoutes from './ProtectedRoutes';
 import Cart from './pages/Cart';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
     return (
         <BrowserRouter>
+		<ToastContainer />
             <Routes>
                 <Route
                     index
